@@ -20,17 +20,17 @@ Every message flows through a **four-tier memory architecture** designed to keep
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│ L0  ACTIVE CONTEXT     last N mini-rounds, verbatim      │
-│     Compresses when: > 4000 tokens OR > 6 mini-rounds    │
+│ L0  ACTIVE CONTEXT     last N mini-rounds, verbatim     │
+│     Compresses when: > 4000 tokens OR > 6 mini-rounds   │
 ├─────────────────────────────────────────────────────────┤
-│ L1  RECENT SUMMARIES   rolling window of summary chunks  │
-│     Last 5 summaries with topic tags and embeddings      │
+│ L1  RECENT SUMMARIES   rolling window of summary chunks │
+│     Last 5 summaries with topic tags and embeddings     │
 ├─────────────────────────────────────────────────────────┤
-│ L2  LONG-TERM MEMORY   all old summaries, searchable     │
-│     Retrieved by semantic similarity to the query        │
+│ L2  LONG-TERM MEMORY   all old summaries, searchable    │
+│     Retrieved by semantic similarity to the query       │
 ├─────────────────────────────────────────────────────────┤
-│ L3  STRUCTURED MEMORY  topics, decisions, open questions │
-│     Deduplicated, tracked across the full session        │
+│ L3  STRUCTURED MEMORY  topics, decisions, open questions│
+│     Deduplicated, tracked across the full session       │
 └─────────────────────────────────────────────────────────┘
 ```
 
