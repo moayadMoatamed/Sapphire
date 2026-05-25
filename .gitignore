@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# uploaded PDFs
+/uploads/
+
+# test materials (PDFs)
+/testing_materials/
