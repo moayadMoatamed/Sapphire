@@ -168,7 +168,7 @@ The graph is rendered on a Canvas element with a custom force-directed layout en
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USER/sapphire.git
+git clone https://github.com/moayadMoatamed/sapphire.git
 cd sapphire
 
 # Install dependencies
